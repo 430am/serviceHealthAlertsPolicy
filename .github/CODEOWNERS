@@ -1,0 +1,14 @@
+# The listed owner(s) cover every file. To require their approval before
+# merging, configure branch protection or a ruleset to require pull requests
+# and code-owner review. This file alone does not enforce review.
+# Bypass permissions can allow merges without approval, and a pull request
+# author cannot approve their own pull request.
+#
+# Format: <path-pattern> <owner1> [<owner2> ...]
+# Last matching pattern wins.
+#
+# Update the owner below if your personal GitHub handle differs from the
+# repo owner. Add per-path overrides as the project grows, e.g.:
+#   terraform/  @430am @some-teammate
+#   docs/       @430am
+* @430am
